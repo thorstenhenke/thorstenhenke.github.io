@@ -1,0 +1,43 @@
+h1, h2, h3 { }
+h1 {
+        color: orange;
+}
+h2 {
+        color: lightgreen; 
+}
+
+body {
+    font-family: Menlo, Monaco, monospace;
+    color: #666;
+    background-color: #fff;
+}
+
+ul {
+        list-style: none;
+}
+li {
+    display: inline-block;
+    }
+
+h1:before {
+        content: "#";
+        left: -1.25em;
+}
+h2:before {
+        content: "##"; 
+        left: -2em;
+}
+h3:before {
+        content: "###"; 
+}
+
+#permanent-title {
+        color: grey;;
+}
+#permanent-title:before{
+        content: ""; 
+}
+#permanent-title > a {
+        color: inherit;;
+        text-decoration: none; 
+}
