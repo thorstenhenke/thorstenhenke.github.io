@@ -1,2 +1,8 @@
-Man kann den Stern gut zum highlighten in der Navi nehmen. 
+Man kann den Stern gut zum highlighten in der Navi nehmen. Oder man kreist in [] ein. 
 Eine Ausrichtung am ersten Buchstaben bei den Überschriften wäre super
+
+Was ist das mit diesem + im css???
+    >> benachbarte elemente
+Was ist das mit diesem , im css???
+    >> quasi einfach ein und, also waehle a und b und c, ... aus und wende
+       darauf dann das css an. 
