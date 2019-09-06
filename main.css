@@ -1,71 +1,11 @@
-/* Geht das nicht auch geschickter, indem man gemiensame eigenschaften 
- * definiert und dann gezielt überschreibt? */
-h1 {
-        font-weight: normal;
-        color: orange;
-}
-h2 {
-        font-weight: normal;
-        color: lightgreen; 
-}
-
-a {
-        text-decoration: none;
-}
-
-a:before {
-        content: " "; 
-}
-a:after {
-        content: " ";
-}
-
-
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:hover:before {
-        content: "["; 
-}
-a:hover:after {
-        content: "]"; 
-}
-
-header {
-    text-align: center; 
-}
-
 body {
-    font-family: Menlo, Monaco, monospace;
-    color: #666;
-    background-color: #fff;
 }
 
-ul {
-    list-style: none;
-}
-li {
-    display: inline-block;
-}
-h1:before {
-        content: "#";
-}
-h2:before {
-        content: "##"; 
-}
-h3:before {
-        content: "###"; 
+h1 {
 }
 
-#permanent-title {
-        color: grey;;
+p {
 }
-#permanent-title:before{
-        content: ""; 
-}
-#permanent-title > a {
-        color: inherit;;
-        text-decoration: none; 
+
+#contact-card {
 }
