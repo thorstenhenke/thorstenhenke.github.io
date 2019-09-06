@@ -1,11 +1,25 @@
 body {
+        font-family: Menlo, Monaco, monospace;
+        color: #666;
+        background-color: #fff;
 }
 
 h1 {
+        color: orange; 
+        text-align: center; 
 }
 
-p {
+ul {
+        list-style-type: none; 
 }
+
+li:before {
+        content: "- "; 
+        margin-left: -15px;
+}
+
 
 #contact-card {
+        margin: auto;
+        width: 50%; 
 }
