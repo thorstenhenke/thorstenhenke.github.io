@@ -1,9 +1,40 @@
-h1, h2, h3 { }
+/* Geht das nicht auch geschickter, indem man gemiensame eigenschaften 
+ * definiert und dann gezielt überschreibt? */
 h1 {
+        font-weight: normal;
         color: orange;
 }
 h2 {
+        font-weight: normal;
         color: lightgreen; 
+}
+
+a {
+        text-decoration: none;
+}
+
+a:before {
+        content: " "; 
+}
+a:after {
+        content: " ";
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:hover:before {
+        content: "["; 
+}
+a:hover:after {
+        content: "]"; 
+}
+
+header {
+    text-align: center; 
 }
 
 body {
@@ -13,19 +44,16 @@ body {
 }
 
 ul {
-        list-style: none;
+    list-style: none;
 }
 li {
     display: inline-block;
-    }
-
+}
 h1:before {
         content: "#";
-        left: -1.25em;
 }
 h2:before {
         content: "##"; 
-        left: -2em;
 }
 h3:before {
         content: "###"; 
